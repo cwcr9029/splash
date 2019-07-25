@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Deprevention</title>
+    </head>
+    <body>
+        <form method="POST">
+            <input type="text" name="tweet_input">
+            <input type="submit" value="Check!">
+        </form>
+        {% if tweet_input %}
+            <p>Your data: {{tweet_input}}</p>
+            <p>Result: {{output}}</p>
+        {% endif %}
+    </body>
+</html>
