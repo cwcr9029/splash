@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Deprevention",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "images/icon.png"
+    },
+    "background": {
+        "scripts": ["content.js"]
+    }
+}
