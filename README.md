@@ -19,7 +19,7 @@ Using open dataset platform such as "Kaggle", we found an open Sentiment dataset
 ### Processing data
 Using data processing library Pandas, we first input the csv file that we have obtained. Following which, we check for null values ```tweets.isnull()``` to prevent anomalies that will affect the training of our model. Secondly, we remove unnecessary columns that we will not be using in order to reduce the data size (e.g. id, date, flag and user).
 
-Next, we process the text data using the nltk (natural language text processing library), by removing patterns in the words as well as other characters (```@[\w]*``` etc.). Next, we remove stopwords, which are very typical language words used such as "I" or "ours" and used stemmming to convert words into their root words.
+Next, we process the text data using the nltk (natural language text processing library), by removing patterns in the words as well as other characters (```@[\w]*``` etc.). Next, we remove stopwords, which are very typical language words used such as "I" or "ours" and used stemming to convert words into their root words.
 
 ### Prototype
 #### Web App
